@@ -1,0 +1,63 @@
+body {
+  place-items: initial;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.ttt-grid {
+  display: flex;
+  width: 15rem;
+  height: 15rem;
+  background-color: white;
+  outline: 1px solid black;
+  flex-wrap: wrap;
+}
+
+.ttt-grid-item {
+  display: flex;
+  width: 5rem;
+  height: 5rem;
+  outline: 1px solid black;
+  color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.ttt-win {
+  margin: auto;
+  color: red;
+}
+
+.ms-grid {
+  display: flex;
+  width: 20rem;
+  height: 20rem;
+  background-color: white;
+  outline: 1px solid black;
+  flex-wrap: wrap;
+}
+
+.ms-grid-item {
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+  outline: 1px solid black;
+  color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.ms-lose {
+  margin: auto;
+  color: red;
+}
